@@ -3,7 +3,7 @@ import { IoMenu } from "react-icons/io5";
 const NavigationBar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="flex items-center relative justify-between container py-6 px-6 ClashGrotesk">
+    <nav className="flex items-center relative justify-between container py-6 px-6 ClashGrotesk ">
       <div className="logo w-56">
         <img
           className="w-full h-full"
@@ -12,10 +12,10 @@ const NavigationBar = () => {
         />
       </div>
       <div className="links lg:flex gap-10 text-lg hidden">
-        <a href="#Home">Home</a>
-        <a href="#About">About</a>
-        <a href="#Services">Services</a>
-        <a href="#Contact">Contact</a>
+        <a href="#Home" className="hover:text-yellow-400 transition-colors duration-300 ease-in-out">Home</a>
+        <a href="#About" className="hover:text-yellow-400 transition-colors duration-300 ease-in-out">About</a>
+        <a href="#Services" className="hover:text-yellow-400 transition-colors duration-300 ease-in-out">Services</a>
+        <a href="#Contact" className="hover:text-yellow-400 transition-colors duration-300 ease-in-out">Contact</a>
       </div>
       <div className="CTA hidden lg:block">
         <button className="Nav_Btn tracking-wide">Contact Us</button>
