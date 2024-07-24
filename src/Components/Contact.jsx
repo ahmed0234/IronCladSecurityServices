@@ -63,14 +63,14 @@ const Contact = () => {
           <div className="Details mt-8 flex flex-col gap-6">
             <div className="FirstContact flex  items-center gap-5">
               <FiPhone className="text-yellow-500 text-3xl" />
-              <h2 className="text-xl">+44 7404 572411</h2>
+              <h2 className="text-xl">0191 073 7413</h2>
             </div>
             <div className="FirstContact flex  items-center gap-5">
               <CiMail className="text-yellow-500 text-3xl" />
-              <h2 className="text-xl">shayanexamplemail@gmail.com</h2>
+              <h2 className="text-xl">zahid@ironcladsecurity.ltd</h2>
             </div>
             <div className="Socials flex gap-6">
-              <a href="#">
+              <a href="https://www.facebook.com/profile.php?id=61563022947408" target="_blank">
                 <div className="bg-zinc-800 p-4 rounded-full inline-block hover:scale-125 transition-all duration-300 ease-in-out">
                   <FaFacebookF className="text-yellow-500 text-xl" />
                 </div>
