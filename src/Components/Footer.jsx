@@ -34,6 +34,10 @@ const Footer = () => {
               <CiMail className="text-yellow-500 text-3xl" />
               <h2 className="text-lg ClashGrotesk font-medium tracking-normal">zahid@ironcladsecurity.ltd</h2>
             </div>
+            <div className="FirstContact flex  items-center gap-5">
+              <CiMail className="text-yellow-500 text-3xl" />
+              <h2 className="text-xl">admin@ironcladsecurity.org.uk</h2>
+            </div>
             <div className="Socials flex gap-6">
               <a href="https://www.facebook.com/profile.php?id=61563022947408" target="_blank">
                 <div className="bg-zinc-800 p-4 rounded-full inline-block hover:scale-125 transition-all duration-300 ease-in-out">
