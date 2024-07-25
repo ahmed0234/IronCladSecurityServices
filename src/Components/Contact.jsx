@@ -63,7 +63,7 @@ const Contact = () => {
           <div className="Details mt-8 flex flex-col gap-6">
             <div className="FirstContact flex  items-center gap-5">
               <FiPhone className="text-yellow-500 text-3xl" />
-              <h2 className="text-xl">0191 073 7413</h2>
+              <h2 className="text-xl">0191 743 7013</h2>
             </div>
             <div className="FirstContact flex  items-center gap-5">
               <CiMail className="text-yellow-500 text-3xl" />
