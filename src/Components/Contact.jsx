@@ -29,7 +29,7 @@ const Contact = () => {
       message,
     };
     try {
-      const response = await fetch("http://localhost:3000/api/formsubmission", {
+      const response = await fetch("https://ironcladbackend.vercel.app/api/formsubmission", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
