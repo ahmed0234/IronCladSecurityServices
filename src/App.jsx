@@ -11,10 +11,7 @@ const App = () => {
 
   return (
     <>
-    <div className="p-14">
-      <h1 className="text-3xl">Service Worker Error 303.......: </h1>
-    </div>
-    <div className="hidden">
+    <div className="">
       <NavigationBar />
       <Home />
       <AboutUs />
